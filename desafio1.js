@@ -5,14 +5,13 @@ class ProductManager {
     }
   
     addProduct(title, description, price, thumbnail, code, stock) {
-      // Validacion que no se repita el campo "code"
+
       const codigoRepetido = this.products.some((product) => product.code === code);
       if (codigoRepetido) {
         console.log(`Ya existe el código ${code}`);
         return;
       }
   
-      // Agregar el producto al array de productos
       const newProduct = {
         id: this.newId,
         title,
@@ -43,22 +42,8 @@ class ProductManager {
   
   const productManager = new ProductManager();
   
-  productManager.addProduct(
-    "Kindle",
-    "Elemento para leer digitalmente",
-    450,
-    kindle.jpg,
-    "450",
-    4
-  );
-  productManager.addProduct(
-    "Iphone",
-    "telefono celuar",
-    20, 
-    iphone.jpg,
-    "451",
-    200
-  );
+  productManager.addProduct("Kindle","Elemento para leer digitalmente",450, "./multimedia/kindle.jpg","450",4);
+  productManager.addProduct("Iphone","telefono celuar",20,"./multimedia/iphone.jpg","451",200);
   
   const todosProducts = productManager.getProducts();
   console.log(todosProducts);
