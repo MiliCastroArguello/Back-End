@@ -54,7 +54,7 @@ class ProductManager {
   productManager.addProduct(
     "Iphone",
     "telefono celuar",
-    20,
+    20, 
     iphone.jpg,
     "451",
     200
