@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Kindle",
+		"description": "Leer",
+		"price": 550,
+		"thumbnail": "sin imagen",
+		"code": 130,
+		"stock": 1,
+		"id": 1
+	},
+	{
+		"title": "Kindle",
+		"description": "Leer",
+		"price": 550,
+		"thumbnail": "sin imagen",
+		"code": 130,
+		"stock": 1,
+		"id": 2
+	},
+	{
+		"title": "Kindle",
+		"description": "Leer",
+		"price": 550,
+		"thumbnail": "sin imagen",
+		"code": 130,
+		"stock": 1,
+		"id": 3
+	}
+]
